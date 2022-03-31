@@ -1,0 +1,21 @@
+.header{
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.nav__img{
+    width: 36px;
+}
+.nav--link{
+    color: #060a24;
+    text-decoration: none;
+    font-family: $primary_font;
+}

@@ -5,26 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <!--ROBOTO MONO // font-family: 'Roboto Mono', monospace;-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap" rel="stylesheet">
-    <!--OPEN SANS // font-family: 'Open Sans', sans-serif;-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Podcast Channel</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="./images/logo.svg" alt="logo">
-            <ul>
-                <li><a href="#">EPISODIOS</a></li>
-                <li><a href="#">NOSOTROS</a></li>
-                <li><a href="#">ENTREVISTAS</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="wrapper">
+
+        <header class="header header__wrapper">
+
+            <nav class="nav">
+                
+                <a class="nav__logo" href="#">
+                    <img class="nav__img" src="./images/logo.svg" alt="logo">
+                </a>
+
+                <ul class="nav__menu">
+                    <li class="nav__menu__item"><a href="#" class="nav__menu__link nav--link">EPISODIOS</a></li>
+                    <li class="nav__menu__item"><a href="#" class="nav__menu__link nav--link">NOSOTROS</a></li>
+                    <li class="nav__menu__item"><a href="#" class="nav__menu__link nav--link">ENTREVISTAS</a></li>
+                    <li class="nav__menu__item"><a href="#" class="nav__menu__link nav--link">TÓPICOS</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+    </div>
 </body>
 </html>
