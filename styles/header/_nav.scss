@@ -1,4 +1,5 @@
 .header{
+    display: flex;
     height: 80px;
     width: 100%;
     top: 0;
@@ -18,4 +19,19 @@
     color: #060a24;
     text-decoration: none;
     font-family: $primary_font;
+}
+.nav__menu{
+    display: flex;
+    list-style: none;
+}
+.nav__menu__item{
+    margin: 0 10px;
+}
+.nav__menu__link:hover{
+    color: #00f3bb; 
+    transition: .2s;
+}
+.nav__menu__link:active{
+    color: #8F060A24;
+    text-decoration: line-through;
 }
