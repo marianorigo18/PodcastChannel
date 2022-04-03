@@ -15,6 +15,14 @@
 .nav__img{
     width: 36px;
 }
+.nav__toggle{
+    border: none;
+    background: none;
+    display: none;
+}
+.nav__burguer{
+    width: 30px;
+}
 .nav--link{
     color: #060a24;
     text-decoration: none;
@@ -34,4 +42,34 @@
 .nav__menu__link:active{
     color: #8F060A24;
     text-decoration: line-through;
+}
+@media (max-width: 768px){
+    .header{
+        height: 44px;
+    }
+    .nav__img{
+        width: 24px;
+    }
+    .nav__menu{
+        flex-direction: column;
+        background-color: #0000EC;
+        position: fixed;
+        top: 44px;
+        width: 100%;
+        left: 100%;
+        transition: left .3s;
+    }
+    .nav__menu__item{
+        margin: 16px;
+    }
+    .nav--link{
+        color: #fff;
+    }
+    .nav__toggle{
+        display: block;
+        cursor: pointer;
+    }
+    .nav__menu_visible{
+        left: 0;
+    }
 }
