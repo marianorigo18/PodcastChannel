@@ -1,0 +1,23 @@
+.episodios{
+    background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+}
+.episodios__title{
+    width: 80%;
+    margin: 0 auto 26px;
+}
+.episodios__title H2{
+    font-size: 48px;
+    font-family: $secundary_font;
+    margin-top: 196px;
+}
+.episodios__podcast{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    gap: 70px;
+    width: 80%;
+    margin: 0 auto;
+}
+.episodios__itpod{
+    width: 100%;
+}

@@ -122,7 +122,7 @@ body {
 }
 
 .hello-world {
-  width: 90%;
+  width: 80%;
   margin: 200px auto 0px;
   padding-left: 40px;
 }
@@ -159,6 +159,9 @@ body {
 }
 
 @media (max-width: 1100px) {
+  .hello-world {
+    width: 90%;
+  }
   .hello__parrafo {
     width: 70%;
   }
@@ -197,5 +200,37 @@ body {
     font-size: 16px;
     margin-top: 36px;
   }
+}
+
+.episodios {
+  background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+}
+
+.episodios__title {
+  width: 80%;
+  margin: 0 auto 26px;
+}
+
+.episodios__title H2 {
+  font-size: 48px;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-top: 196px;
+}
+
+.episodios__podcast {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 70px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.episodios__itpod {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
