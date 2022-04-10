@@ -1,0 +1,42 @@
+
+.de_donde_venimos{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 660px;
+}
+.de-donde-venimos-cont__img{
+    display: flex;
+    justify-content: flex-end;
+}
+.de-donde-venimos__img{
+    position: absolute;
+    top: -100px;
+    height: 100%;
+
+}
+.de-donde-venimos__title{
+    font-size: 48px;
+    font-family: $secundary_font;
+    font-weight: 400;
+}
+/*.de_donde_venimos{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+    width: 66%;
+}
+.de-donde-venimos__img{
+    height: 660px;
+    position: absolute;
+    top: -100px;
+}
+.de-donde-venimos__title{
+    font-size: 48px;
+    font-family: $secundary_font;
+    font-weight: 400;
+    width: 399px;
+}*/

@@ -1,7 +1,7 @@
 .episodios{
     background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     height: 1000px;
-    clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+    clip-path: polygon(0 12%, 100% 0%, 100% 90%, 0 100%);
 }
 .episodios__title{
     width: 80%;
@@ -27,15 +27,33 @@
     width: 100%;
     height: 232px;
 }
-.trtt{
-    width: 100px;
-    height: 1000px;
-    background-color: #0000FF;
-
-}
 @media (max-width: 1000px){
     .episodios__podcast{
         grid-template-columns: 110%;
 
+    }
+    .episodios{
+        height: 1500px;
+        clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0 100%);
+    }
+    .episodios__title{
+        width: 87%;
+    }
+    .episodios__title H2{
+        margin-top: 110px;
+    }
+}
+@media (max-width: 500px){
+    .episodios{
+        height: 1310px;
+        margin-top: 25px;
+        clip-path: polygon(0 2%, 100% 0%, 100% 97%, 0 100%);
+    }
+    .episodios__title h2{
+        font-size: 36px;
+        margin-top: 54px;
+    }
+    .episodios__podcast{
+        gap: 11px;
     }
 }
