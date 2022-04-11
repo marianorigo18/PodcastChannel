@@ -15,10 +15,56 @@
     height: 100%;
 
 }
+.de-donde-venimos__text{
+    margin-top: 68px;
+}
 .de-donde-venimos__title{
     font-size: 48px;
     font-family: $secundary_font;
     font-weight: 400;
+    margin-bottom: 26px;
+}
+.de-donde-venimos__paragraph{
+    font-family: $primary_font;
+    width: 80%;
+    margin-bottom: 15px;
+}
+@media (max-width: 1060px){
+    .de-donde-venimos__paragraph{
+        width: 95%;
+    }
+}
+@media (max-width:815px){
+    .de_donde_venimos{
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .de-donde-venimos-cont__img{
+        justify-content: center;
+        height: 600px;
+    }
+    .de-donde-venimos__text{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .de-donde-venimos__paragraph{
+        width: 100%;
+    }
+}
+@media (max-width: 460px){
+    .de-donde-venimos__img{
+        height: 78%;
+        top: -134px;
+    }
+    .de-donde-venimos__title{
+        font-size: 36px;
+    }
+    .de-donde-venimos__text{
+        margin-top: -197px;
+    }
+    .de-donde-venimos__paragraph{
+        font-size: 14px;
+    }
 }
 /*.de_donde_venimos{
     position: relative;
