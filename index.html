@@ -24,10 +24,10 @@
                 </button>
 
                 <ul class="nav__menu">
-                    <li class="nav__menu__item"><a href="#" class="nav__menu__link nav--link">EPISODIOS</a></li>
-                    <li class="nav__menu__item"><a href="#" class="nav__menu__link nav--link">NOSOTROS</a></li>
-                    <li class="nav__menu__item"><a href="#" class="nav__menu__link nav--link">ENTREVISTAS</a></li>
-                    <li class="nav__menu__item"><a href="#" class="nav__menu__link nav--link">TÓPICOS</a></li>
+                    <li class="nav__menu__item"><a href="#episodios" class="nav__menu__link nav--link">EPISODIOS</a></li>
+                    <li class="nav__menu__item"><a href="#nosotros" class="nav__menu__link nav--link">NOSOTROS</a></li>
+                    <li class="nav__menu__item"><a href="#entrevistas" class="nav__menu__link nav--link">ENTREVISTAS</a></li>
+                    <li class="nav__menu__item"><a href="#topicos" class="nav__menu__link nav--link">TÓPICOS</a></li>
                 </ul>
 
             </nav>
@@ -40,7 +40,7 @@
                     <button class="hello__button">CONOCÉ MÁS</button>
                 </section>
                 
-                <section class="episodios">
+                <section class="episodios" id="episodios">
                     <div class="episodios__title">
                         <h2>Episodios</h2>
                     </div>
@@ -57,7 +57,7 @@
                     </div>
                 </section>
 
-                <section class="de_donde_venimos">
+                <section class="de_donde_venimos" id="nosotros">
                     <div class="de-donde-venimos-cont__img">
                         <img src="/images/phone.png" alt="" class="de-donde-venimos__img">
                     </div>
@@ -73,7 +73,7 @@
                         </p>
                     </div>
                 </section>
-                <div class="invitadas-estelares">
+                <div class="invitadas-estelares" id="entrevistas">
                     <h2 class="invitadas__title">Invitadas/os estelares</h2>
                     <div class="invitadas-cont__imgs">
                         <div class="invitadas-cont-column__img">
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <section class="algunos-de-nuestros-temas">
+                <section class="algunos-de-nuestros-temas" id="topicos">
 
                     <h2 class="algunos-de-nuestros-temas__title">Algunos de nuestros temas</h2>
 
@@ -124,14 +124,27 @@
                         
                     </div>
                 </section>
+
                 <section class="ultimas-novedades">
                     <h2 class="ultimas__title">
                         ¿Querés las últimas novedades?
                     </h2>
-                    <button class="utima__button">
-                        ESCUCHÁ LOS EPISODIOS
+                    <button class="ultima__button">
+                        <a href="#">ESCUCHÁ LOS EPISODIOS</a>
                     </button>
                 </section>
+                <footer class="footer">
+                    <p class="footer__paragraph">
+                        © 2019— Hello blue pale dot 
+                    </p>
+                    <div class="footer__icons">
+                        <img src="./fonts/spotify.svg" alt="">
+                        <img src="./fonts/instagram.svg" alt="">
+                        <img src="./fonts/twittwe.svg" alt="">
+                        <img src="./fonts/facebook.svg" alt="">
+                        <img src="./fonts/telegram.svg" alt="">
+                    </div>
+                </footer>
         </main>
     </div>
 </body>

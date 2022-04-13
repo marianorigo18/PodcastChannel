@@ -503,4 +503,121 @@ body {
         grid-template-columns: repeat(4, 1fr);
   }
 }
+
+.ultimas-novedades {
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+  height: 340px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 42px;
+}
+
+.ultimas__title {
+  font-size: 36px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  width: 90%;
+  margin: 64px auto 36px auto;
+  text-align: center;
+}
+
+.ultima__button {
+  width: 90%;
+  background-color: #00f3bb;
+  height: 48px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 345px;
+}
+
+.ultima__button a {
+  text-decoration: none;
+}
+
+@media (min-width: 575px) {
+  .ultimas__title {
+    margin: 120px auto 36px auto;
+  }
+}
+
+@media (min-width: 850px) {
+  .ultimas-novedades {
+    -webkit-clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+@media (min-width: 920px) {
+  .ultimas-novedades {
+    height: 500px;
+  }
+  .ultimas__title {
+    margin: 195px auto 36px auto;
+  }
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__paragraph {
+  font-family: "IBM Plex Mono", monospace;
+  margin-top: 24px;
+}
+
+.footer__icons {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 16px 31px;
+}
+
+@media (min-width: 770px) {
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 95px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footer__paragraph {
+    margin: auto 0;
+  }
+  .footer__icons {
+    margin: auto 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
