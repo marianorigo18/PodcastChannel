@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 660px;
+    scroll-margin-top: 30ex;
 }
 .de-donde-venimos-cont__img{
     display: flex;
@@ -51,6 +52,7 @@
         width: 100%;
     }
 }
+
 @media (max-width: 460px){
     .de-donde-venimos__img{
         height: 78%;

@@ -1,5 +1,6 @@
 .invitadas-estelares{
     margin-top: 150px;
+    scroll-margin-top: 7ex;
 }
 .invitadas__title{
     font-size: 36px;
@@ -40,6 +41,11 @@
 @media (min-width:520px){
     .invitadas-cont__imgs{
         grid-template-columns: repeat(2, 50%);
+    }
+}
+@media (min-width: 770px){
+    .invitadas-estelares{
+        scroll-margin-top: 10ex;
     }
 }
 @media (min-width: 816px){

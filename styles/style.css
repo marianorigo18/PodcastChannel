@@ -9,6 +9,10 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #ffffff;
 }
@@ -157,6 +161,25 @@ body {
   font-size: 18px;
   font-weight: 500;
   margin-top: 56px;
+  cursor: pointer;
+}
+
+.hello__button:hover {
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+.hello__button a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+}
+
+.hello__button a:hover {
+  color: #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 @media (max-width: 1100px) {
@@ -208,6 +231,7 @@ body {
   height: 1000px;
   -webkit-clip-path: polygon(0 12%, 100% 0%, 100% 90%, 0 100%);
           clip-path: polygon(0 12%, 100% 0%, 100% 90%, 0 100%);
+  scroll-margin-top: -17ex;
 }
 
 .episodios__title {
@@ -238,8 +262,10 @@ body {
 }
 
 .episodios__itpod {
+  border: none;
   width: 100%;
   height: 232px;
+  border-radius: 12px;
 }
 
 @media (max-width: 1000px) {
@@ -251,6 +277,7 @@ body {
     height: 1500px;
     -webkit-clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0 100%);
             clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0 100%);
+    scroll-margin-top: -7ex;
   }
   .episodios__title {
     width: 87%;
@@ -283,6 +310,7 @@ body {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   height: 660px;
+  scroll-margin-top: 30ex;
 }
 
 .de-donde-venimos-cont__img {
@@ -383,6 +411,7 @@ body {
 }*/
 .invitadas-estelares {
   margin-top: 150px;
+  scroll-margin-top: 7ex;
 }
 
 .invitadas__title {
@@ -434,6 +463,12 @@ body {
   }
 }
 
+@media (min-width: 770px) {
+  .invitadas-estelares {
+    scroll-margin-top: 10ex;
+  }
+}
+
 @media (min-width: 816px) {
   .invitadas-estelares {
     margin-top: 0px;
@@ -446,6 +481,10 @@ body {
     width: 80%;
     margin-bottom: 36px;
   }
+}
+
+.algunos-de-nuestros-temas {
+  scroll-margin-top: 8ex;
 }
 
 .algunos-de-nuestros-temas__title {
@@ -497,6 +536,12 @@ body {
   }
 }
 
+@media (min-width: 770px) {
+  .algunos-de-nuestros-temas {
+    scroll-margin-top: 11ex;
+  }
+}
+
 @media (min-width: 920px) {
   .algunos-de-nuestros-temas__cards {
     -ms-grid-columns: (1fr)[4];
@@ -541,12 +586,27 @@ body {
   border: none;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
-  font-weight: 500;
   max-width: 345px;
+  cursor: pointer;
+}
+
+.ultima__button:hover {
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 }
 
 .ultima__button a {
   text-decoration: none;
+  width: 100%;
+  display: block;
+  height: 100%;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.ultima__button a:hover {
+  color: #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 @media (min-width: 575px) {
@@ -618,6 +678,7 @@ body {
   }
   .footer__icons {
     margin: auto 0;
+    width: 250px;
   }
 }
 /*# sourceMappingURL=style.css.map */

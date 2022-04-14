@@ -1,3 +1,6 @@
+.algunos-de-nuestros-temas{
+    scroll-margin-top: 8ex;
+}
 .algunos-de-nuestros-temas__title{
     font-size: 36px;
     font-weight: 400;
@@ -30,6 +33,11 @@
     .algunos-de-nuestros-temas__cards{
         grid-template-columns: repeat(2, 1fr);
 
+    }
+}
+@media (min-width: 770px){
+    .algunos-de-nuestros-temas{
+        scroll-margin-top: 11ex;
     }
 }
 @media (min-width: 920px){
