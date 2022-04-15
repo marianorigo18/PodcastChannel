@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: white;
 }
 
 .wrapper {
@@ -174,6 +174,7 @@ body {
   width: 100%;
   height: 100%;
   line-height: 60px;
+  color: #060a35;
 }
 
 .hello__button a:hover {
@@ -581,6 +582,7 @@ body {
   height: 100%;
   line-height: 45px;
   font-weight: 600;
+  color: #060a35;
 }
 
 .ultima__button a:hover {
